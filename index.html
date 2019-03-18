@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Wymiana kalorii</title>
+        <link rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+            crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Wymiana kalorii</a>
+            </div>
+        </nav>
+        <div class="container" id="app">
+            <div class="form-group">
+                <label>Mój produkt</label>
+            </div>
+            <div>
+                <ul data-bind="foreach: products" class="list-group">
+                    <label class="list-group-item" data-bind="attr: { for: id }, css: { 'active': selected }">
+                        <span data-bind="text: name, attr: { for: id }"></span>
+                        <input type="radio" name="product" data-bind="checked: selected, attr: { id: id, value: name }"/>
+                    </label>
+                </ul>
+            </div>
+        </div>
+        <script src="./dist/bundle.js"></script>
+    </body>
+</html>
