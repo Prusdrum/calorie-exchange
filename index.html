@@ -1,4 +1,4 @@
-<html>
+<html lang="pl">
     <head>
         <title>Wymiana kalorii</title>
         <link rel="stylesheet" 
@@ -11,21 +11,45 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand" href="#">Wymiana kalorii</a>
+                <a class="navbar-brand" href="">Wymiana kalorii</a>
             </div>
         </nav>
         <div class="container" id="app">
-            <div class="form-group">
-                <label>Mój produkt</label>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="weight">Waga: [gram]</label>
+                        <input class="form-control" type="number" id="weight" data-bind="value: inWeight"/>
+                    </div>
+                    <div>
+                        <label>Produkt bazowy</label>
+                        <ul data-bind="foreach: products" class="list-group input-list">
+                            <label class="list-group-item" data-bind="attr: { for: id }, css: { 'active': $parent.isSelected($data) }">
+                                <span data-bind="text: name, attr: { for: id }"></span>
+                                <input type="radio" name="product" data-bind="attr: { id: id, value: name }, event: { change: function() { $parent.onChange($data) } }"/>
+                            </label>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <!-- ko if: selectedProduct() !== null -->
+                    <h2>To się przekłada na:</h2>
+                    <div>
+                        <ul data-bind="foreach: results" class="list-group" >
+                            <li class="list-group-item" data-bind="css: { 'disabled': $parent.selectedProduct().name === $data.name }">
+                                <span data-bind="text: name"></span>
+                                <span class="float-right" data-bind="text: value + ' gram'"></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /ko -->
+                    <!-- ko if: selectedProduct() === null  -->
+                    <h2>ℹ️ Wybierz produkt bazowy żeby zobaczyć przelicznik</h2>
+                    <!-- /ko -->
+                </div>
+                
             </div>
-            <div>
-                <ul data-bind="foreach: products" class="list-group">
-                    <label class="list-group-item" data-bind="attr: { for: id }, css: { 'active': selected }">
-                        <span data-bind="text: name, attr: { for: id }"></span>
-                        <input type="radio" name="product" data-bind="checked: selected, attr: { id: id, value: name }"/>
-                    </label>
-                </ul>
-            </div>
+            
         </div>
         <script src="./dist/bundle.js"></script>
     </body>

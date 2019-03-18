@@ -1,0 +1,106 @@
+[
+    {
+        "name": "Jabłko",
+        "value": 100
+    },
+    {
+        "name": "Arbuz",
+        "value": 130
+    },
+    {
+        "name": "Banan",
+        "value": 50
+    },
+    {
+        "name": "Brzoskwinia",
+        "value": 100
+    },
+    {
+        "name": "Brzoskwinia w syropie",
+        "value": 65
+    },
+    {
+        "name": "Czereśnia",
+        "value": 80
+    },
+    {
+        "name": "Świeży ananas",
+        "value": 90
+    },
+    {
+        "name": "Ananas z puszki",
+        "value": 50
+    },
+    {
+        "name": "Grejpfrut",
+        "value": 130
+    },
+    {
+        "name": "Gruszka",
+        "value": 90
+    },
+    {
+        "name": "Jagody",
+        "value": 100
+    },
+    {
+        "name": "Porzeczki",
+        "value": 100
+    },
+    {
+        "name": "Borówki",
+        "value": 100
+    },
+    {
+        "name": "Kiwi",
+        "value": 80
+    },
+    {
+        "name": "Morele",
+        "value": 90
+    },
+    {
+        "name": "Maliny",
+        "value": 160
+    },
+    {
+        "name": "Nektarynki",
+        "value": 100
+    },
+    {
+        "name": "Truskawki",
+        "value": 160
+    },
+    {
+        "name": "Melon",
+        "value": 130
+    },
+    {
+        "name": "Mandarynki",
+        "value": 110
+    },
+    {
+        "name": "Pomarańcza",
+        "value": 1110
+    },
+    {
+        "name": "Śliwki",
+        "value": 70
+    },
+    {
+        "name": "Wiśnie",
+        "value": 100
+    },
+    {
+        "name": "Winogron",
+        "value": 70
+    },
+    {
+        "name": "Suszone morele",
+        "value": 15
+    },
+    {
+        "name": "Suszone śliwki",
+        "value": 15
+    }
+]
