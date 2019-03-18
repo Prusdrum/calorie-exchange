@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Bakłażan",
+        "value": 140
+    },
+    {
+        "name": "Bób",
+        "value": 45
+    },
+    {
+        "name": "Boćwina",
+        "value": 170
+    },
+    {
+        "name": "Brokuł",
+        "value": 110
+    },
+    {
+        "name": "Brukselka",
+        "value": 80
+    },
+    {
+        "name": "Buraki",
+        "value": 80
+    },
+    {
+        "name": "Cukinia",
+        "value": 200
+    },
+    {
+        "name": "Dynia",
+        "value": 100
+    },
+    {
+        "name": "Kalafior",
+        "value": 130
+    },
+    {
+        "name": "Kalarepa",
+        "value": 100
+    },
+    {
+        "name": "Kapusta biała",
+        "value": 100
+    },
+    {
+        "name": "Kapusta kwaszona",
+        "value": 250
+    },
+    {
+        "name": "Kukurydza konserwowa",
+        "value": 40
+    },
+    {
+        "name": "Por",
+        "value": 120
+    },
+    {
+        "name": "Fasolka czerwona konserwowa",
+        "value": 30
+    },
+    {
+        "name": "Groszek konserwowy",
+        "value": 40
+    },
+    {
+        "name": "Fasolka szparagowa",
+        "value": 110
+    },
+    {
+        "name": "Ciecierzyca konserwowa",
+        "value": 25
+    },
+    {
+        "name": "Marchew",
+        "value": 110
+    },
+    {
+        "name": "Soczewica sucha",
+        "value": 10
+    },
+    {
+        "name": "Ogórek świeży",
+        "value": 210
+    },
+    {
+        "name": "Ogórek kwaszony",
+        "value": 270
+    },
+    {
+        "name": "Papryka czerwona",
+        "value": 100
+    },
+    {
+        "name": "Pieczarki",
+        "value": 170
+    },
+    {
+        "name": "Pomidor",
+        "value": 200
+    },
+    {
+        "name": "Rzodkiewka",
+        "value": 200
+    },
+    {
+        "name": "Seler naciowy",
+        "value": 210
+    },
+    {
+        "name": "Seler korzeniowy",
+        "value": 140
+    },
+    {
+        "name": "Szpinak",
+        "value": 180
+    },
+    {
+        "name": "Szparagi",
+        "value": 100
+    }
+]

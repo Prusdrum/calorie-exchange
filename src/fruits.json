@@ -1,9 +1,5 @@
 [
     {
-        "name": "Jabłko",
-        "value": 100
-    },
-    {
         "name": "Arbuz",
         "value": 130
     },
@@ -38,6 +34,10 @@
     {
         "name": "Gruszka",
         "value": 90
+    },
+    {
+        "name": "Jabłko",
+        "value": 100
     },
     {
         "name": "Jagody",
